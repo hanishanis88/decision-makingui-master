@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Decision-Making</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="title">
+<h1 style="text-align: center;">Decision Making of Software Testing Technique using Rule-Based Approach</h1>
+</div>
+</br>
+</br>
+</br>
+<div id="wrapper" style="display: block;">
+  <br />
+  <form id="info">
+    <label class="lbl">Project Name:</label>
+    <input class="tbox" type="input" id="project_name" name="project_name" value="">
+    <br />
+    <label class="lbl">Email Address:</label>
+    <input class="tbox" type="input" id="email" name="email" value="">
+    <br />
+    <label for="position" class="lbl">Position:</label>
+    <select name="position" id="position">
+      <option value="Software Tester">Software Tester</option>
+      <option value="Quality Assurance Engineer">Quality Assurance Engineer</option>
+      <option value="Test Engineer">Test Engineer</option>
+      <option value="Test Analyst">Test Analyst</option>
+      <option value="Product Manager">Product Manager</option>
+      <option value="Software Engineer">Software Engineer</option>
+      <option value="Developer">Developer</option>
+      <option value="Others">Others</option>
+    </select>
+    <br />
+    <label for="testing" class="lbl">Current Testing Technique:</label>
+    <select name="testing" id="testing">
+      <option value="Manual Testing">Manual Testing</option>
+      <option value="Automatic Testing">Automated Testing</option>
+      <option value="Hybrid Testing(using both manual and automated testing)">Hybrid Testing (using both manual and automated testing)</option>
+    </select>
+    <br />
+    <label class="lbl">Tool(s) Name (if selected Automated or Hybrid Testing):</label>
+    <input class="tbox" type="input" id="tool_name" name="tool_name" value="">
+    <br />
+  </form>
+  <br />
+  <hr>
+  <br />
+  <h3>Questions</p>
+  <div class="factor">
+    <!-- SUTR -->
+  <h3>Factors: System Under Test Related Factors (SUTR)</h3>
+  </div>
+  
+  <form id="quiz">
+    <div class="sec">
+      <!-- Question 1 -->
+      <p>1. System will have major functional modification in the future</p>
+      <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+      <!-- The value is which answer the choice corresponds to. -->
+      <label class="cursor"><input class="cursor checkmark" type="radio" name="q1" value="c1">
+        YES
+      </label><br />
+      <label class="cursor"><input class="cursor checkmark" type="radio" name="q1" value="c2">
+        NO
+      </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 2 -->
+    <p>2. System will have major interface changes in the future</p>
+    <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+    <label class="cursor"><input class="cursor checkmark" type="radio" name="q2" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor checkmark" type="radio" name="q2" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 3 -->
+    <p>3. System has long life cycle</p>
+    <!-- Choices for the third question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q3" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q3" value="c2">
+      NO
+    </label><br />
+    </div>
+    
+    <div class="sec">
+    <!-- Question 4 -->
+    <p>4. System is generic</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q4" value="c1">
+     YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q4" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 5 -->
+    <p>5. System integrated with other system</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q5" value="c1">
+     YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q5" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 6 -->
+    <p>6. System has many release</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q6" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q6" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    </br>
+    <div class="factor">
+      <!-- TeR -->
+    <h3>Factors: Test Related Factors (TeR)</h3>
+    </div>
+
+    <div class="sec">
+    <!-- Question 7 -->
+    <p>7. Testing requires large amount of testing data</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q7" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q7" value="c2">
+      NO
+    </label><br />
+    </div>
+
+
+    <div class="sec">
+    <!-- Question 8 -->
+    <p>8. Testing involves scenario that are similar to each other</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q8" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q8" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 9 -->
+    <p>9. Testing requires human judgement</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q9" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q9" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 10 -->
+    <p>10. Testing needs to be done in several environments</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q10" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q10" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 11 -->
+    <p>11. Testing is straight forward</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q11" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q11" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 12 -->
+    <p>12. Testing is likely to cover high risk and importance areas</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q12" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q12" value="c2">
+      NO
+    </label><br />
+    </div>
+
+  </br>
+  <div class="factor">
+    <!-- ToR -->
+  <h3>Factors: Tools Related Factors (ToR)</h3>
+  </div>
+
+    <div class="sec">
+    <!-- Question 13 -->
+    <p>13. Total cost of using the tool</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q13" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q13" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 14 -->
+    <p>14. Functionality of the tool</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q14" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q14" value="c2">
+      NO
+    </label><br />
+    </div>
+
+    <div class="sec">
+    <!-- Question 15 -->
+    <p>15. Tool suitability with the purpose</p>
+    <!-- Choices for the fourth question -->
+    <label class="cursor"><input class="cursor" type="radio" name="q15" value="c1">
+      YES
+    </label><br />
+    <label class="cursor"><input class="cursor" type="radio" name="q15" value="c2">
+      NO
+    </label><br />
+    </div>
+
+  </br>
+  <div class="factor">
+    <!-- HuR -->
+  <h3>Factors: Human Related Factors (HuR)</h3>
+  </div>
+
+  <div class="sec">
+  <!-- Question 16 -->
+  <p>16. Tester has enough required skill</p>
+  <!-- Choices for the fourth question -->
+  <label class="cursor"><input class="cursor" type="radio" name="q16" value="c1">
+    YES
+  </label><br />
+  <label class="cursor"><input class="cursor" type="radio" name="q16" value="c2">
+    NO
+  </label><br />
+  </div>
+
+  <div class="sec">
+  <!-- Question 17 -->
+  <p>17. Organization can afford to train automation engineer</p>
+  <!-- Choices for the fourth question -->
+  <label class="cursor"><input class="cursor" type="radio" name="q17" value="c1">
+    YES
+  </label><br />
+  <label class="cursor"><input class="cursor" type="radio" name="q17" value="c2">
+    NO
+  </label><br />
+  </div>
+
+  <div class="sec">
+  <!-- Question 18 -->
+  <p>18. There is expert for the tools that will be used</p>
+  <!-- Choices for the fourth question -->
+  <label class="cursor"><input class="cursor" type="radio" name="q18" value="c1">
+    YES
+  </label><br />
+  <label class="cursor"><input class="cursor" type="radio" name="q18" value="c2">
+    NO
+  </label><br />
+  </div>
+
+  <div class="sec">
+  <!-- Question 19 -->
+  <p>19. Tester has enough time to create test script</p>
+  <!-- Choices for the fourth question -->
+  <label class="cursor"><input class="cursor" type="radio" name="q19" value="c1">
+    YES
+  </label><br />
+  <label class="cursor"><input class="cursor" type="radio" name="q19" value="c2">
+    NO
+  </label><br />
+  </div>
+
+  </br>
+  </br>
+    <a id="submit" onclick="tabulateAnswers()">GET RESULT</a>
+  <a type="reset" id="reset" onclick="resetAnswer()">RESET</a>
+  </form>
+</br>
+</div>
+
+</br>
+</br>
+</br>
+</br>
+<div id="wrapper2" style="opacity: 0">
+<div id="answer"><h2 style="text-align: center;">Result</h2>
+</div>
+</div>
+</br>
+</br>
+</br>
+</br>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

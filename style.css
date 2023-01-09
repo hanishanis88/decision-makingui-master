@@ -1,0 +1,151 @@
+body {
+  font-family: 'Tinos', serif;
+  background: #f4e9e2;
+}
+h2 {
+  margin: 5px 0;
+}
+p {
+  font-weight: 400!important;
+}
+.title {
+  background: #403050;
+  padding: 30px;
+}
+.title h1 {
+  color: #f3c3a3;
+}
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+#wrapper2 {
+  width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+input {
+  margin: 5px 10px;
+}
+form#info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.lbl {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.tbox {
+  width: 98%;
+  font-size: 19px;
+  background-color: #fffaf7;
+  border: 1px solid grey;
+  padding: 7px;
+  margin: 0px;
+}
+select#position {
+  width: 100%;
+  font-size: 18px;
+  padding: 7px;
+  background-color: #fffaf7;
+}
+select#testing {
+  width: 100%;
+  font-size: 18px;
+  padding: 7px;
+  background-color: #fffaf7;
+}
+button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  border-bottom: 3px solid #333;
+}
+#submit {
+  background: #b5d7ff;
+  padding: 15px 20px;
+  border-radius: 11px;
+  cursor: pointer;
+  margin: 10px;
+  border: 1px solid grey;
+}
+#submit:hover {
+  background: #87a6cb;
+}
+#reset {
+  background: #eeeeee;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  border: 1px solid grey;
+}
+#reset:hover {
+  background: #b4b2b2;
+}
+#answer {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}
+.sec {
+  padding: 10px;
+  border-bottom: 5px solid #f4e9e2;
+}
+.sec:hover {
+  background: #f4e9e2;
+}
+.factor {
+  background-color: #c4933b;
+  padding: 15px;
+}
+.factor h3 {
+  margin: 0px!important;
+}
+.cursor {
+  cursor: pointer;
+}
+input[type=radio]:checked {
+  background: transparent url(checkbox-on.png) no-repeat;
+  background-size: contain;
+}
+input[type=radio] {
+  /* border: 1px solid #333; */
+  /* padding: 0.5em; */
+  -webkit-appearance: none;
+  background: transparent url(checkbox-off.png) no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  top: 8px;
+  margin-right: 3px;
+  margin-bottom: -9px;
+}
+}
+input[type=radio]:focus {
+  outline-color: #333;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  margin: 20px 10px;
+  border: 1px solid #f4e9e2;
+  background-color: #ffdcc5;
+  border-radius: 10px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+}
