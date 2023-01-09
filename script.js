@@ -34,12 +34,6 @@ function tabulateAnswers() {
   var c17score = 0;
   var c18score = 0;
   var c19score = 0;
-  // var c20score = 0;
-  // var c21score = 0;
-  // var c22score = 0;
-  // var c23score = 0;
-  // var c24score = 0;
-  // var c25score = 0;
 
   // get a list of the radio inputs on the page
   var choices = document.getElementsByTagName('input');
