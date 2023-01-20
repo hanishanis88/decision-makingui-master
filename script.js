@@ -146,7 +146,7 @@ function tabulateAnswers() {
       redirect: 'follow'
     };
     
-    fetch("http://localhost/decision-makingAPI/api/create.php?project_name="+project_name+"&email="+email+"&position="+position+"&testing_technique="+testing+"&tools_name="+tool_name+"&project_result=Automated Testing", requestOptions)
+    fetch("https://api.hanis88project.space/api/create.php?project_name="+project_name+"&email="+email+"&position="+position+"&testing_technique="+testing+"&tools_name="+tool_name+"&project_result=Automated Testing", requestOptions)
       .then(response => response.text())
       .then(result => console.log(result))
       .catch(error => console.log('error', error));
@@ -165,7 +165,7 @@ function tabulateAnswers() {
       redirect: 'follow'
     };
     
-    fetch("http://localhost/decision-makingAPI/api/create.php?project_name="+project_name+"&email="+email+"&position="+position+"&testing_technique="+testing+"&tools_name="+tool_name+"&project_result=Manual Testing", requestOptions)
+    fetch("https://api.hanis88project.space//api/create.php?project_name="+project_name+"&email="+email+"&position="+position+"&testing_technique="+testing+"&tools_name="+tool_name+"&project_result=Manual Testing", requestOptions)
       .then(response => response.text())
       .then(result => console.log(result))
       .catch(error => console.log('error', error));
