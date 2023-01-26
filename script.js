@@ -99,24 +99,6 @@ function tabulateAnswers() {
       if (choices[i].value == 'c19') {
         c19score = c19score + 1;
       }
-      // if (choices[i].value == 'c20') {
-      //   c20score = c20score + 1;
-      // }
-      // if (choices[i].value == 'c21') {
-      //   c21score = c21score + 1;
-      // }
-      // if (choices[i].value == 'c22') {
-      //   c22score = c22score + 1;
-      // }
-      // if (choices[i].value == 'c23') {
-      //   c23score = c23score + 1;
-      // }
-      // if (choices[i].value == 'c24') {
-      //   c24score = c24score + 1;
-      // }
-      // if (choices[i].value == 'c25') {
-      //   c25score = c25score + 1;
-      // }
       // If you add more choices and outcomes, you must add another if statement below.
     }
   }
@@ -138,7 +120,7 @@ function tabulateAnswers() {
     console.log(scoretotal);
     console.log('yes = '+c1score);
     console.log('no = '+c2score);
-    answerbox.innerHTML = "<br><h2>RESULT</h2><br><br><h2>Automated testing</h2><br><div class=\"card-group\"><div class=\"card\"><div class=\"container\"><h4><b>Procedure</b></h4><p>Automated testing is a testing done by human but with the help of automation tools.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Approach</b></h4><p>Automated testing does not allow random testing as the testing will be conducted using the test script.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Time taken</b></h4><p>Time taken to complete automated testing is very fast.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Tools</b></h4><p>Automation tools is required, and it is a must to have tool to execute the testing.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Cost</b></h4><p>Cost for tools is very expensive.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Manpower</b></h4><p>Required less tester as the testers are only needed to create the test script.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Accuracy</b></h4><p>High accuracy.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Technical skills</b></h4><p>Required tester to have good knowledge in programming language.</p></div></div></div><br><br><p><a type=\"reset\" id=\"reset\" onclick=\"resetAnswer()\">RESET</a></p>";
+    answerbox.innerHTML = "<br><h2>RESULT</h2><br><br><h2>Automated testing</h2><br><div class=\"card-group\"><div class=\"card\"><div class=\"container\"><h4><b>Procedure</b></h4><p>Automated testing is a testing done by human but with the help of automation tools.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Approach</b></h4><p>Automated testing does not allow random testing as the testing will be conducted using the test script.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Time taken</b></h4><p>Time taken to complete automated testing is very fast.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Tools</b></h4><p>Automation tools is required, and it is a must to have tool to execute the testing.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Cost</b></h4><p>Cost for tools is very expensive.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Manpower</b></h4><p>Required less tester as the testers are only needed to create the test script.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Accuracy</b></h4><p>High accuracy.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Technical skills</b></h4><p>Required tester to have good knowledge in programming language.</p></div></div></div><br><br><p><a id=\"submit\" onclick=\"answerSurvey()\">ANSWER SURVEY</a><a type=\"reset\" id=\"reset\" onclick=\"resetAnswer()\">RESET</a></p>";
     document.getElementById("wrapper").style.display = "none";
     document.getElementById("wrapper2").style.opacity = "1";
     var requestOptions = {
@@ -156,7 +138,7 @@ function tabulateAnswers() {
     console.log(scoretotal);
     console.log('yes = '+c1score);
     console.log('no = '+c2score);
-    answerbox.innerHTML = "<br><h2>RESULT</h2><br><br><h2>Manual testing</h2><br><div class=\"card-group\"><div class=\"card\"><div class=\"container\"><h4><b>Procedure</b></h4><p>Manual testing is a testing done manually by human.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Approach</b></h4><p>Manual testing allowed the tester to do random testing in finding bugs and error.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Time taken</b></h4><p>Time taken to complete manual testing is very high (time consuming).</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Tools</b></h4><p>No tool is required to execute the testing.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Cost</b></h4><p>Not involved any cost for tools.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Manpower</b></h4><p>Required more tester as all the test cases will be executed manually.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Accuracy</b></h4><p>Low accuracy.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Technical skills</b></h4><p>Not required any programming language.</p></div></div></div><br><br><p><a type=\"reset\" id=\"reset\" onclick=\"resetAnswer()\">RESET</a></p>";
+    answerbox.innerHTML = "<br><h2>RESULT</h2><br><br><h2>Manual testing</h2><br><div class=\"card-group\"><div class=\"card\"><div class=\"container\"><h4><b>Procedure</b></h4><p>Manual testing is a testing done manually by human.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Approach</b></h4><p>Manual testing allowed the tester to do random testing in finding bugs and error.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Time taken</b></h4><p>Time taken to complete manual testing is very high (time consuming).</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Tools</b></h4><p>No tool is required to execute the testing.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Cost</b></h4><p>Not involved any cost for tools.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Manpower</b></h4><p>Required more tester as all the test cases will be executed manually.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Accuracy</b></h4><p>Low accuracy.</p></div></div><div class=\"card\"><div class=\"container\"><h4><b>Technical skills</b></h4><p>Not required any programming language.</p></div></div></div><br><br><p><a id=\"submit\" onclick=\"answerSurvey()\">ANSWER SURVEY</a><a type=\"reset\" id=\"reset\" onclick=\"resetAnswer()\">RESET</a></p>";
     document.getElementById("wrapper").style.display = "none";
     document.getElementById("wrapper2").style.opacity = "1";
   
@@ -180,7 +162,11 @@ function tabulateAnswers() {
 
 // program the reset button
 function resetAnswer() {
-  // var answerbox = document.getElementById('answer');
-  // answerbox.innerHTML = "Your result will show up here!";
+  //var answerbox = document.getElementById('answer');
+  //answerbox.innerHTML = "Your result will show up here!";
   location.reload();
+}
+
+function answerSurvey() {
+  location.replace('https://docs.google.com/forms/d/e/1FAIpQLSfodURrzrfDnra6bzbtkCidbty_-Y_SP2XsFwWIXwX8Tfvi0Q/viewform');
 }
