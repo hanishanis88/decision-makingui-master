@@ -167,6 +167,7 @@ function resetAnswer() {
   location.reload();
 }
 
+// program the answer survey button
 function answerSurvey() {
   location.replace('https://docs.google.com/forms/d/e/1FAIpQLSfodURrzrfDnra6bzbtkCidbty_-Y_SP2XsFwWIXwX8Tfvi0Q/viewform');
 }
